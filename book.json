@@ -1,0 +1,147 @@
+{
+  "title": "my resource",
+  "author" : "Skynetcus",
+  "description": "first  test",
+  "plugins": [
+    "klipse",
+    "-highlight",
+    "prism",
+    "sectionx",
+    "ancre-navigation",
+    "mermaid-gb3",
+    "-sharing",
+    "sharing-plus",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "edit-link",
+    "hide-element",
+    "anchors",
+    "chapter-fold",
+    "expandable-chapters",
+    "code",
+    "insert-logo",
+    "custom-favicon",
+    "pageview-count",
+    "tbfed-pagefooter",
+    "advanced-emoji",
+    "katex",
+    "local-video",
+    "include-csv",
+    "emphasize",
+    "graph",
+    "chart",
+    "donate",
+    "musicxml",
+    "auto-scroll-table",
+    "github",
+    "page-treeview",
+    "lightbox",
+    "theme-comscore"
+  ],
+  "pluginsConfig": {
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-dark.css"
+      ],
+      "ignore": [
+        "mermaid",
+        "eval-js",
+        "eval-clojure",
+        "transpile-cljs",
+        "eval-python",
+        "eval-ruby",
+        "eval-scheme",
+        "eval-php"
+      ]
+    },
+    "sectionx": {
+      "tag": "b"
+    },
+    "sharing": {
+      "douban": true,
+      "facebook": true,
+      "google": true,
+      "pocket": true,
+      "qq": true,
+      "qzone": true,
+      "twitter": true,
+      "weibo": true,
+      "all": [
+        "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo",
+        "messenger","qq", "qzone","viber","whatsapp"
+      ]
+    },
+    "search-pro": {
+      "cutWordLib": "nodejieba",
+      "defineWord" : ["Gitbook Use"]
+    },
+    "edit-link": {
+      "base": "https://github.com/Skynetset/myBook/edit/main/",
+      "label": "Edit"
+    },
+    "fontSettings": {
+      "theme": "night",
+      "family": "serif",
+      "size": 1
+    },
+    "hide-element": {
+      "elements": [".gitbook-link"]
+    },
+    "insert-logo": {
+      "url": "images/logo.png",
+      "style": "background: none; max-height: 30px; min-height: 30px"
+    },
+    "favicon": "icon/favicon.ico",
+    "tbfed-pagefooter": {
+      "copyright":"Copyright &copy Skynetcus 2021",
+      "modify_label": "该文章修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "sitemap-general": {
+      "prefix": "http://gitbook.zhangjikai.com"
+    },
+    "donate": {
+      "wechat": "https://111.com/resource/weixin.png",
+      "alipay": "https://111.com/resource/alipay.png",
+      "title": "aaa",
+      "button": "赏",
+      "alipayText": "支付宝打赏",
+      "wechatText": "微信打赏"
+    },
+    "github": {
+      "url": "https://github.com/Skynetset"
+    },
+    "page-treeview": {
+      "copyright": "Copyright &#169; Skynetcus",
+      "minHeaderCount": "2",
+      "minHeaderDeep": "1"
+    }
+  },
+  "variables": {},
+  "links": {
+    "sidebar": {
+      "Baidu": "https://www.baidu.com"
+    }
+  },
+  "pdf": {
+    "pageNumbers": true,
+    "fontSize": 12,
+    "paperSize": "a4",
+    "margin": {
+      "right": 62,
+      "left": 62,
+      "top": 36,
+      "bottom": 36
+    },
+    "headerTemplate": null,
+    "footerTemplate": null
+  },
+  "styles": {
+    "website": "styles/website.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css",
+    "epub": "styles/epub.css"
+  }
+}
