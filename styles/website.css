@@ -5,3 +5,9 @@
 .treeview__container-title {
     display: none;
 }
+b {
+    color: dodgerblue;
+}
+.level__parent--opened::after {
+    border-bottom-color: magenta;
+}

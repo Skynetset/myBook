@@ -4,7 +4,8 @@
 * [Introduction](README.md)
 
 * Knowledge
-  * [Plugins](Plugins.md)
+  * [Plugins](books/GitBook/Plugins.md)
 * GitBook
-  * [Plugins](Plugins.md)
+  * [Markdown](books/GitBook/Markdown.md)
+  * [Plugins](books/GitBook/Plugins.md)
     

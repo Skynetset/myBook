@@ -3,6 +3,7 @@
   "author" : "Skynetcus",
   "description": "first  test",
   "plugins": [
+    "theme-comscore",
     "klipse",
     "-highlight",
     "prism",
@@ -36,8 +37,7 @@
     "auto-scroll-table",
     "github",
     "page-treeview",
-    "lightbox",
-    "theme-comscore"
+    "lightbox"
   ],
   "pluginsConfig": {
     "prism": {
@@ -52,7 +52,8 @@
         "eval-python",
         "eval-ruby",
         "eval-scheme",
-        "eval-php"
+        "eval-php",
+        "sequence"
       ]
     },
     "sectionx": {

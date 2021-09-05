@@ -155,12 +155,26 @@ pre[class*="language-"] {
 
 ## 3. Sectionx
 将页面分块显示，标签的 tag 最好是使用 b 标签，如果使用 h1-h6 可能会和其他插件冲突。  
-[插件地址](https://www.npmjs.com/package/gitbook-plugin-sectionx-cn)
+[插件地址](https://www.npmjs.com/package/gitbook-plugin-sectionx)
 
-    class: the button has to belong to the class "section".
-    target: when pressed, the section with the id of target will be toggled.
-    show: the text on the button when the target section is hidden.
-    hide: the text on the button when the target section is visible.
+一个部分将采用三个参数，如下所示：
+
+data-title: 标题，它将显示为引导面板的标题（大小为 h2）。  
+请注意，标题中不能使用字符 "，请使用`&quot;`代替。
+data-id: id，它对于按钮控制很有用（在下一节中讨论）。
+data-show:默认情况下表示面板内容是否可见的布尔值。    
+true: 面板内容默认对用户可见，面板标题可点击。  
+false: 面板内容默认对用户隐藏，面板标题不可点击，只能通过添加自定义按钮来查看（在下一节中讨论）。    
+data-nopdf: 一个布尔值，表示该部分是否将隐藏在 pdf 导出中。    
+true: 该面板不会显示在 .pdf 或 .epub 格式的文件中。
+data-collapse: 一个布尔值，表示默认情况下该部分是否将打开（但仍然可见）。  
+true: 面板内容默认对用户可见，但已关闭。 
+false: 面板内容默认对用户可见，但已打开（默认设置）。  
+  
+class: 该按钮必须属于`section`类。   
+target: 当按下时，id 为 target 的部分将被切换。   
+show: 隐藏目标部分时按钮上的文本。    
+hide: 目标部分可见时按钮上的文本。    
 ```json
 {
     "plugins": [
@@ -528,7 +542,7 @@ poster="https://zhangjikai.com/resource/poster.jpg" data-setup='{"aspectRatio":"
 }
 ```
 example1
-{% includeCsv src="./assets/csv/test.csv" %}{% endincludeCsv %}
+{% includeCsv src="../../assets/csv/test.csv" %}{% endincludeCsv %}
 example2
 {% includeCsv %}
 hoge,fuga
@@ -861,7 +875,7 @@ type 可以是 `c3` 或者 `highcharts`, 默认是 `c3`.
 ```
 使用示例:
 
-[import](styles/website.css)
+[import](../../styles/website.css)
 
 ## Splitter
 使侧边栏的宽度可以自由调节
