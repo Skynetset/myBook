@@ -37,9 +37,15 @@
     "auto-scroll-table",
     "github",
     "page-treeview",
-    "lightbox"
+    "lightbox",
+    "terminal"
   ],
   "pluginsConfig": {
+    "terminal": {
+      "copyButtons": false,
+      "fade": false,
+      "style": "classic"
+    },
     "prism": {
       "css": [
         "prismjs/themes/prism-dark.css"
@@ -90,8 +96,8 @@
       "elements": [".gitbook-link"]
     },
     "insert-logo": {
-      "url": "images/logo.png",
-      "style": "background: none; max-height: 30px; min-height: 30px"
+      "url": "/images/logo.png (2).png",
+      "style": "background: none; max-height: 100px; min-height: 30px"
     },
     "favicon": "icon/favicon.ico",
     "tbfed-pagefooter": {
@@ -144,5 +150,6 @@
     "pdf": "styles/pdf.css",
     "mobi": "styles/mobi.css",
     "epub": "styles/epub.css"
-  }
+  },
+  "root": "/"
 }
