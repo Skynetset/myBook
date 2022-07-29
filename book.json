@@ -28,7 +28,6 @@
     "advanced-emoji",
     "katex",
     "local-video",
-    "include-csv",
     "emphasize",
     "graph",
     "chart",
@@ -37,7 +36,6 @@
     "auto-scroll-table",
     "github",
     "page-treeview",
-    "lightbox",
     "terminal"
   ],
   "pluginsConfig": {
